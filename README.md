@@ -1,1 +1,3 @@
-pequeña aplicación web en la que los usuarios podrán guardar sus contactos y lista de actividades pendientes. Realizado con html, css y javascript. Los datos se guardan en localstorage del navegador.
+pequeña aplicación web en la que los usuarios podrán guardar sus contactos y lista de actividades pendientes. Realizado con html, css y javascript. Los datos se guardan en localstorage del navegador.![Captura de pantalla 2023-03-14 233631](https://user-images.githubusercontent.com/7361853/225453203-6fdc0309-dded-4b99-b486-e7ac57acbabf.png)
+![Captura de pantalla 2023-03-14 233531](https://user-images.githubusercontent.com/7361853/225453211-3c796cb4-31f7-446b-84f5-e552e4104c14.png)
+![Captura de pantalla 2023-03-14 233603](https://user-images.githubusercontent.com/7361853/225453215-2b02642e-0e1b-413b-91c9-669f030e527a.png)
