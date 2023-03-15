@@ -1,0 +1,26 @@
+.content-menu__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3% 0;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  margin-top: -370px;
+}
+@media screen and (min-width: 736px) {
+  .content-menu__items {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 0px!important;
+    width: 100%;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-menu__items {
+    width: 87%;
+    margin-top: 0px;
+    gap: 1rem;
+  }
+}

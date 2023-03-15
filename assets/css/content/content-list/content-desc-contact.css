@@ -1,0 +1,17 @@
+.content__desc-contact{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ margin-top: 2%;
+}
+@media (min-width: 1024px) {
+  .content__desc-contact {
+    justify-content: space-between;
+    flex-direction:row;
+    margin: 2% 0;
+    gap: 1rem;
+  }
+  .content__desc-contact div{
+    flex: 1;
+  }
+}

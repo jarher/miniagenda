@@ -1,0 +1,7 @@
+.content__item__text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+    flex: 2;
+}

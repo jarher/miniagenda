@@ -1,0 +1,16 @@
+.form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10%;
+  width: 100%;
+  border: 1px solid gray;
+  padding: 5%;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 736px) {
+  .form__form {
+    gap: 1rem;
+    margin-top: 1%;
+  }
+}

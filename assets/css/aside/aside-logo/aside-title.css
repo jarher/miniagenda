@@ -1,0 +1,12 @@
+.aside__title{
+    position: absolute;
+    top: 0%;
+    transform: translate(0%, 25%);
+    font-family: satisfy,'sans-serif';
+    font-size: 2rem;
+}
+@media only screen and (min-width: 1024px) {
+    .aside__title{
+        font-size: 2.5rem;
+    }
+}

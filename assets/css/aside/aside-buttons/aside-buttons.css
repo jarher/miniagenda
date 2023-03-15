@@ -1,0 +1,27 @@
+.aside__buttons {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 3%;
+  gap: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 15px rgb(187, 186, 186);
+  opacity: 0;
+  transform: translateY(-360px);
+  transition: all 0.4s ease-in-out;
+  z-index: 3;
+}
+@media only screen and (min-width: 1024px) {
+  .aside__buttons {
+    position: relative;
+    background-color:transparent;
+    transform: none;
+    margin-top: 24vh;
+    opacity: 1;
+    box-shadow: none;
+  }
+}

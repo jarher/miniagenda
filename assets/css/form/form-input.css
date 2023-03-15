@@ -1,0 +1,33 @@
+.form__input,
+.form__input_edit {
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  margin-top: 5%;
+}
+.form__input::placeholder {
+  visibility: hidden;
+}
+label {
+  font-size: 1.3rem;
+}
+.form__input + label:not([for="dateTask"]) {
+  position: absolute;
+  top: 0.4rem;
+  transition: all 0.3s ease-in-out;
+}
+.form__input:not(:placeholder-shown) + label:not([for="dateTask"]),
+.form__input:focus + label:not([for="dateTask"]) {
+  font-size: 0.8rem;
+  top: 0.2rem;
+}
+
+.form__input:focus:not([type="date"]) {
+  border: none;
+  outline: none;
+  margin-top: 5%;
+  border-bottom: 3px solid blue;
+}
+.form__input:visited{
+  background-color: transparent;
+}

@@ -1,0 +1,8 @@
+.form__warning {
+  margin-top: 1%;
+  font-size: 1.2rem;
+  color: red;
+}
+.form__warning--hide{
+    display: none;
+}

@@ -1,0 +1,21 @@
+/* aside styles  */
+@import url("./aside-logo/aside-logo-wrapper.css");
+@import url("./aside-logo/aside-menu-button.css");
+@import url("./aside-logo/aside-logo.css");
+@import url("./aside-logo/aside-title.css");
+@import url("./aside-logo/aside-img.css");
+@import url("./aside-buttons/aside-buttons.css");
+@import url("./aside-buttons/aside-buttons-move-down.css");
+@import url("./aside-buttons/aside-button.css");
+
+.aside{
+    background-color: #FFDB20;
+}
+@media only screen and (min-width: 1024px) {
+    .aside{
+        width: 20%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}

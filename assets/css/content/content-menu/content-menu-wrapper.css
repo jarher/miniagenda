@@ -1,0 +1,23 @@
+.content-menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  position: absolute;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+@media screen and (min-width: 736px) {
+  .content-menu__wrapper {
+    padding: 1%;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-menu__wrapper {
+    padding: 0;
+  }
+}

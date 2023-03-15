@@ -1,0 +1,20 @@
+.content__item__icons {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 736px) {
+  .content__item__icons {
+    width: 75%;
+    align-self: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content__item__icons {
+    width: auto;
+    margin: 0;
+    gap: 15px;
+    align-self: baseline;
+  }
+}

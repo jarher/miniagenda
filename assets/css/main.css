@@ -1,0 +1,24 @@
+@font-face {
+  font-family: satisfy;
+  src: url("../fonts/Satisfy-Regular.ttf");
+}
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+button{
+  border: none;
+}
+@media only screen and (min-width: 1024px) {
+  .main {
+    flex-flow: row wrap;
+  }
+}

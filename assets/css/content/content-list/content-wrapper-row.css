@@ -1,0 +1,10 @@
+.content__wrapper_row {
+  display: flex;
+  margin-top: 5%;
+}
+@media (min-width: 1024px) {
+  .content__wrapper_row {
+    width: 14%;
+    margin-top: 1%;
+  }
+}

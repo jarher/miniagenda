@@ -1,0 +1,8 @@
+.form__select{
+    padding: 1% 0;
+}
+.form__select,
+.form__select:focus,
+.form__select:visited{
+    border: none;
+}

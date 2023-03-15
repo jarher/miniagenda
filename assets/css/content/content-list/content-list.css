@@ -1,0 +1,12 @@
+.content__list {
+  display: flex;
+  flex-direction: column;
+  padding: 4% 0;
+  align-self: center;
+  width: 95%;
+}
+@media only screen and (min-width: 1024px) {
+  .content__list {
+    width: 100%;
+  }
+}

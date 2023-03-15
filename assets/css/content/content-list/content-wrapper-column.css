@@ -1,0 +1,9 @@
+.content__wrapper_column{
+    display: flex;
+    flex-flow: column nowrap;
+}
+@media (min-width:1024px){
+    .content__wrapper_column{
+        width: 100%;
+    }
+}

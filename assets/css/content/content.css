@@ -1,0 +1,48 @@
+/* content banner styles  */
+@import url("./content-banner/content-banner.css");
+@import url("./content-banner/content-title.css");
+
+/* content menu styles  */
+@import url("./content-menu/content-menu.css");
+@import url("./content-menu/content-menu-wrapper.css");
+@import url("./content-menu/content-menu-icon.css");
+@import url("./content-menu/content-menu-inner-wrapper.css");
+@import url("./content-menu/content-menu-title.css");
+@import url("./content-menu/content-menu-items.css");
+@import url("./content-menu/content-menu-contact-form.css");
+@import url("./content-menu/content-menu-items-move-down.css");
+@import url("./content-menu/content-menu-item.css");
+@import url("./content-menu/content-menu-button.css");
+@import url("./content-menu/content-menu-select.css");
+@import url("./content-menu/content-menu-contact.css");
+
+/* content list styles  */
+@import url("./content-list/content-list.css");
+@import url("./content-list/content-item.css");
+@import url("./content-list/content-wrapper-column.css");
+@import url("./content-list/content-wrapper-row.css");
+@import url("./content-list/content-item-description.css");
+@import url("./content-list/content-item-text.css");
+@import url("./content-list/content-item-title.css");
+@import url("./content-list/content-item-title-center.css");
+@import url("./content-list/content-item-date.css");
+@import url("./content-list/content-item-icons.css");
+@import url("./content-list/content-icon-wrapper.css");
+@import url("./content-list/content-icon-description.css");
+@import url("./content-list/content-icon-color-yellow.css");
+@import url("./content-list/content-icon-color-green.css");
+@import url("./content-list/content-wrapper-space.css");
+@import url("./content-list/content-desc-contact.css");
+@import url("./content-list/content-name.css");
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+@media only screen and (min-width: 1024px) {
+  .content {
+    width: 80%;
+    margin-left: 20%;
+    overflow: scroll;
+  }
+}

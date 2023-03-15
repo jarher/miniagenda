@@ -1,0 +1,8 @@
+.content__item__date{
+    color:#797979;
+}
+@media only screen and (min-width: 1024px) {
+    .content__item__date{
+        text-align: left;
+    }
+}

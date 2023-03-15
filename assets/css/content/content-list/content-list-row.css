@@ -1,0 +1,4 @@
+.content__list_row{
+    flex-direction: row!important;
+    justify-content: center;
+}

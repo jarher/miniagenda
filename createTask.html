@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+
+<body> 
+    <div class="form__container">
+        <h1 class="form__title">Crear Actividad</h1>
+        <form class="form__form">
+            <div class="form__wrapper">
+                <input class="form__input" type="text" name="nameTask" id="nameTask" placeholder="Nombre"
+                    data-name-task required/>
+                <label for="nameTask">Nombre</label>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__wrapper">
+                <label for="dateTask">Fecha límite</label>
+                <input class="form__input" type="date" name="dateTask" id="dateTask" data-date-task required/>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__buttons">
+                <button class="form__button" type="submit" data-type="createTask">Crear</button>
+                <button class="form__button" data-type="goBackTask">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/app.js" type="module"></script>
+</body>
+
+</html>

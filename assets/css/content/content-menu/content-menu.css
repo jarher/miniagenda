@@ -1,0 +1,30 @@
+.content-menu {
+  border: 1px solid #074dff;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 3%;
+  width: 95%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  align-self: center;
+  min-height: 10vh;
+}
+@media screen and (min-width: 736px) {
+  .content-menu{
+    padding: 1.5% 2%;
+    width: 100%;
+    min-height: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 2%;
+    width: 100%;
+    min-height: 0;
+    margin-top: 3%;
+  }
+}

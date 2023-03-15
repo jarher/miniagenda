@@ -1,0 +1,5 @@
+@media screen and (min-width: 736px) {
+  .content-menu__icon {
+    display: none!important;
+  }
+}

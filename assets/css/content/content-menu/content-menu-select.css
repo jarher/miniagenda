@@ -1,0 +1,12 @@
+.content-menu__select{
+    padding: 1%;
+    width: 50%;
+    border: none;
+    font-family: satisfy, 'sans-serif';
+    font-size: 1.2rem;
+    color: gray;
+}
+.content-menu__select:focus,
+.content-menu__select:visited{
+    border: none;
+}

@@ -1,0 +1,9 @@
+.content-menu__inner-wrapper {
+    border: 1px solid black;
+    width: 95%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}

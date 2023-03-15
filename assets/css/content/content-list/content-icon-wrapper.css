@@ -1,0 +1,8 @@
+.content__icon__wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 8vh;
+    justify-content: space-between;
+    cursor: pointer;
+}

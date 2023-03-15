@@ -1,0 +1,1 @@
+pequeña aplicación web en la que los usuarios podrán guardar sus contactos y lista de actividades pendientes. Realizado con html, css y javascript. Los datos se guardan en localstorage del navegador.

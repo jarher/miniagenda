@@ -1,0 +1,24 @@
+.content__item {
+  display: inherit;
+  flex-direction: inherit;
+  box-shadow: 4px 4px 4px rgb(180, 180, 180);
+  border: 1px solid #c2c2c2;
+  width: 95%;
+  box-sizing: border-box;
+  padding: 4%;
+  margin-bottom: 5%;
+  align-self: center;
+}
+@media screen and (min-width: 736px) {
+  .content__item {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content__item {
+   padding: 2%;
+   flex-flow: row wrap;
+   margin-bottom: 2%;
+   justify-content: space-between;
+  }
+}

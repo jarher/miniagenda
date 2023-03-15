@@ -1,0 +1,9 @@
+.content__name {
+  font-size: 1rem;
+}
+@media (min-width: 1024px) {
+  .content__name {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+}

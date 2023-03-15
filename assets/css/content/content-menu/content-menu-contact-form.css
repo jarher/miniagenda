@@ -1,0 +1,20 @@
+.content-menu__contact-form {
+  display: flex;
+  width: 100%;
+}
+.content-menu__contact-form input,
+.content-menu__contact-form button {
+  border: none;
+}
+.content-menu__contact-form input {
+  font-family: satisfy, 'sans-serif';
+  font-size: 1.2rem;
+  flex: 4;
+}
+.content-menu__contact-form input:focus{
+  border: none;
+  outline: none;
+}
+.content-menu__contact-form button{
+  background-color: transparent;
+}

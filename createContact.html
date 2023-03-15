@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+
+<body>
+
+    <div class="form__container">
+        <h1 class="form__title">Crear contacto</h1>
+        <form class="form__form">
+            <div class="form__wrapper">
+                <input class="form__input" type="text" name="nameContact" id="nameContact" placeholder=""
+                    pattern="" data-name-contact required />
+                <label for="nameContact">Nombre</label>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__wrapper">
+                <input class="form__input" type="text" name="phoneContact" id="phoneContact" placeholder=""
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" data-phone-contact required />
+                <label for="phoneContact">Teléfono</label>
+                <span>Patrón 123-456-7890</span>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__wrapper">
+                <input class="form__input" type="email" name="emailContact" id="emailContact" placeholder=""
+                     data-email-contact required />
+                <label for="emailContact">Email</label>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__wrapper">
+                <label for="category">Categoría</label>
+                <select class="form__select" name="category" id="category" data-category-contact>
+                    <option value="null" selected>---</option>
+                    <option value="parent">Parentesco</option>
+                    <option value="friend">Amigo</option>
+                    <option value="mate">Pareja</option>
+                    <option value="colleague">Colega</option>
+                    <option value="partner">Socio</option>
+                    <option value="neighbor">Vecino</option>
+                    <option value="emergency">Emergencias</option>
+                    <option value="other">Otro</option>
+                </select>
+                <span class="form__warning form__warning--hide" data-warning></span>
+            </div>
+            <div class="form__buttons">
+                <button class="form__button" type="submit" data-type="createContact">Crear</button>
+                <button class="form__button" data-type="goBackContact">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/js/app.js" type="module"></script>
+</body>
+
+</html>

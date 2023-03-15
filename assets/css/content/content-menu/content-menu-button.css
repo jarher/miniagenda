@@ -1,0 +1,32 @@
+.content-menu__button {
+  width: 80%;
+  padding: 2.5%;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-family: satisfy, "sans-serif";
+}
+.content-menu__button_green {
+  background-color: #00be2a;
+}
+.content-menu__button_fucsia {
+  background-color: #e0006c;
+}
+.content-menu__button_blue {
+  background-color: #009de0;
+}
+.content-menu__button_dark_blue {
+  background-color: #0071a1;
+}
+@media screen and (min-width: 736px) {
+  .content-menu__button {
+    flex: 1;
+    padding: 3%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-menu__button {
+    padding: 1%;
+  }
+}
